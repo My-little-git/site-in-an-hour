@@ -1,0 +1,61 @@
+.header{
+  background: rgba(0, 0, 0, 0.5) !important;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
+}
+.header a{
+  color: rgb(200, 200, 200) !important;
+  transition: color .3s ease-in-out;
+}
+.header a:hover{
+  color: white !important;
+}
+.header a.navbar-brand{
+  color: white !important;
+}
+.header a.active{
+  color: white !important;
+}
+
+.welcome{
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+		url('../img/background.webp');
+  background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  color: white;
+}
+
+.welcome__inner{
+  padding-top: 56px;
+}
+
+.welcome__phrase{
+  margin-top: 160px;
+  font-size: 44px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+.welcome__description{
+  width: 700px;
+  margin-bottom: 60px;
+}
+.accent{
+  font-size: 56px;
+  /* text-transform: uppercase; */
+}
+.welcome__button{
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding: 20px 30px;
+  font-size: 26px;
+  font-weight: 400;
+}
