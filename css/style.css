@@ -1,61 +1,54 @@
-.header{
-  background: rgba(0, 0, 0, 0.5) !important;
-  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
-}
-.header a{
-  color: rgb(200, 200, 200) !important;
-  transition: color .3s ease-in-out;
-}
-.header a:hover{
-  color: white !important;
-}
-.header a.navbar-brand{
-  color: white !important;
-}
-.header a.active{
-  color: white !important;
+/* Main */
+
+.section__title{
+  font-size: 40px;
 }
 
+/* Welcome */
+
 .welcome{
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
-		url('../img/background.webp');
-  background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: top; 
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
+  height: calc(100vh - 56px);
   color: white;
 }
 
-.welcome__inner{
-  padding-top: 56px;
+.welcome__background{
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(0.6);
 }
 
 .welcome__phrase{
-  margin-top: 160px;
   font-size: 44px;
-  font-weight: 600;
-  margin-bottom: 40px;
-  text-transform: uppercase;
-}
-.welcome__description{
-  width: 700px;
-  margin-bottom: 60px;
 }
 .accent{
   font-size: 56px;
-  /* text-transform: uppercase; */
 }
-.welcome__button{
-  background-color: white;
-  color: black;
-  text-decoration: none;
-  padding: 20px 30px;
-  font-size: 26px;
-  font-weight: 400;
+
+
+/* Services */
+
+
+.card-img-top{
+  height: 300px;
+  object-fit: cover;
+  object-position: 0 0;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+}
+
+/* Team */
+.team{
+  padding: 3rem 0 calc(3rem + 30px);
+}
+.team .carousel-indicators{
+  bottom: -50px;
+}
+.team .carousel-control-prev{
+  left: -15%;
+}
+.team .carousel-control-next{
+  right: -15%;
 }
