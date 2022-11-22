@@ -46,9 +46,25 @@
 .team .carousel-indicators{
   bottom: -50px;
 }
+.team .carousel-control-prev,
+.team .carousel-control-next{
+  width: 5%;
+}
 .team .carousel-control-prev{
-  left: -15%;
+  left: -5%;
 }
 .team .carousel-control-next{
-  right: -15%;
+  right: -5%;
+}
+
+/* Modal */
+
+.modal-feedback{
+  background: rgba(0, 0, 0, 0.3)
+}
+.close{
+  width: 20px;
+  right: 30px;
+  top: 30px;
+  cursor: pointer;
 }
